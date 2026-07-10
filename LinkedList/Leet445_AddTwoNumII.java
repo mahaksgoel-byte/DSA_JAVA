@@ -1,5 +1,5 @@
 // Here are two solutions to this problem
-// <b>First approach</b> is the most optimal in terms of TC - O(n) and SC - O(1) (excluding output space)
+// {@code First approach} is the most optimal in terms of TC - O(n) and SC - O(1) (excluding output space)
 class Solution {
     public ListNode reverseList(ListNode head){ //helper function to reverse the lists
         ListNode prev = null, curr = head, front = curr;
@@ -53,7 +53,7 @@ class Solution {
     }
 }
 
-// <b>Second approach</b> - follow up (compute without reversing) TC - O(n) and SC - O(n) 
+// {@codeSecond approach}- follow up (compute without reversing) TC - O(n) and SC - O(n) 
 
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
