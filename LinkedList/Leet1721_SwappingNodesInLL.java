@@ -9,7 +9,7 @@
  * }
  */
 
-// SWAP VALUES (GIVEN IN QUESTION)
+// SWAP VALUES (GIVEN IN QUESTION - question title misleading)
 
 class Solution {
     public ListNode swapNodes(ListNode head, int k) {
