@@ -1,5 +1,5 @@
 //HashMap Solution
-class Solution {
+class Solution { 
     public boolean containsDuplicate(int[] nums) {
         HashMap<Integer, Integer> map = new HashMap<>();
 
