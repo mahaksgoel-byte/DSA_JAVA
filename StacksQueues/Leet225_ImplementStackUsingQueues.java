@@ -1,6 +1,6 @@
 class MyStack {
     Queue<Integer> que;
-    int n;
+    int n; 
 
     public MyStack() {
         que = new ArrayDeque<>();
