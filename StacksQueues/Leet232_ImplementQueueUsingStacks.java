@@ -5,7 +5,7 @@ class MyQueue {
     public MyQueue() {
         input = new Stack<>();
         output = new Stack<>();
-    }
+    } 
 
     public void shift(){
         if(output.isEmpty()){
