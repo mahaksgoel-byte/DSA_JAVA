@@ -3,7 +3,7 @@ class Solution {
     public boolean canReach(int[] arr, int start) {
         int n = arr.length;
         Queue<Integer> que = new ArrayDeque<>(); 
-        que.offer(start);
+        que.offer(start); 
 
         while(!que.isEmpty()){
             int idx = que.poll();
