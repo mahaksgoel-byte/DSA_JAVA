@@ -54,3 +54,23 @@ class Solution {
         return (n < m ? setOperation(nums1, nums2) : setOperation(nums2, nums1));
     }
 }
+
+//Optimal TC AND SC
+class Solution {
+    public int[] intersection(int[] nums1, int[] nums2) {
+        int[] freq = new int[1001];
+        int[] result = new int[Math.min(nums1.length, nums2.length)];
+        int idx = 0;
+
+        for(int i : nums1) freq[i]++;
+
+        for(int i : nums2){
+            if(freq[i] != 0){
+                result[idx++] = i;
+                freq[i] = 0;
+            }
+        }
+
+        return Arrays.copyOf(result, idx);
+    }
+}
